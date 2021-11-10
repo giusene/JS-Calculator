@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="./css/normalize.css">
+    <link rel="stylesheet" media="all" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="main_calc">
+            <div class="history" id="history">
+                <button class="clear-history">clear history</button>
+                <div class="history-list" id="history-list">
+                </div>
+            </div>
+            <div class="calculator">
+                <div class="top_btn"><button id="sound" class="sound"></button><button id="history-btn"></button></div>
+                <div class="display_mini" id="display_mini"></div>
+                <div class="display" id="display">0</div>
+                <div class="btn_set">
+                    <a id="rad" class="sign">√</a>
+                    <a id="nx" class="sign">n<sup>X</sup></a>
+                    <a id="n2" class="sign">n<sup>2</sup></a>
+                    <a id="clear" class="sign">C</a>
+                    <a id="7">7</a>
+                    <a id="8">8</a>
+                    <a id="9">9</a>
+                    <a id="div" class="sign">/</a>
+                    <a id="4">4</a>
+                    <a id="5">5</a>
+                    <a id="6">6</a>
+                    <a id="mult" class="sign">x</a>
+                    <a id="1">1</a>
+                    <a id="2">2</a>
+                    <a id="3">3</a>
+                    <a id="sub" class="sign">-</a>
+                    <a id="0">0</a>
+                    <a id="dot">.</a>
+                    <a id="tot" class="sign">=</a>
+                    <a id="sum" class="sign">+</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
