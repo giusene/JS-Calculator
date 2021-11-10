@@ -38,17 +38,17 @@ body {
 }
 
 #history-btn{
-    background: url('../img/history.png') no-repeat;
+    background: url('https://github.com/giusene/10nov21_Calcolatrice_con_cronologia/blob/main/img/history.png') no-repeat;
     background-size: cover;
 }
 
 .sound{
-    background: url('../img/sound_on.png') no-repeat;
+    background: url('https://github.com/giusene/10nov21_Calcolatrice_con_cronologia/blob/main/img/sound_on.png') no-repeat;
     background-size: cover;
 }
 
 .sound.no-sound{
-    background: url('../img/sound_off.png') no-repeat;
+    background: url('https://github.com/giusene/10nov21_Calcolatrice_con_cronologia/blob/main/img/sound_off.png') no-repeat;
     background-size: cover;
 }
 
