@@ -128,7 +128,7 @@ for (singleBtn of calculatorBtn) {
                         throw `Il numero completo è: ${display.textContent}`;
                     }
                 } catch (err) {
-                    display.textContent = (display.textContent.substr(0, 10, 'E'));
+                    display.textContent = (display.textContent.substr(0, 10));
                     console.warn('Attenzione: Risultato troppo lungo!\n', err)
                 }
                 timeStampStored.push(Date.now());
